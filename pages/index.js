@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.scss";
 import classNames from "classnames/bind";
+import heroImage from "../public/images/hero-image.png";
 
 export default function Home() {
   const cx = classNames.bind(styles);
@@ -28,27 +29,30 @@ export default function Home() {
           <h1 className={styles.title}>Nicolas and Nadejda</h1>
           <h2 className={styles.subtitle}>&ndash; 9/3/2022 &ndash;</h2>
         </div>
-        <div className={styles.hero__container}>
-          <div className={styles.hero__tagline}>
-            <p>You&apos;re invited to our wedding</p>
-          </div>
-        </div>
-        <section className={styles.invite__container}>
-          <div className={styles.invite__primary}>
-            <p>
-              Nico and Nadejda joyfully request the pleasure of your company as
-              we speak our vows and join in marriage in the presence of family
-              and friends.
-            </p>
-          </div>
-          <div className={styles.invite__secondary}>
-            <p>
-              We&apos;ll start with a nonsectarian ceremony, then move to the
-              hotel for the reception. Dress code will be black tie optional
-            </p>
-          </div>
-        </section>
       </main>
+      <div className={styles.hero__container}>
+        <div className={styles.hero__tagline}>
+          <p>You&apos;re invited to our wedding</p>
+        </div>
+        <div className={styles.hero__image__container}>
+          <Image src={heroImage} alt="Picture of the author" layout="fill" />
+        </div>
+      </div>
+      <section className={styles.invite__container}>
+        <div className={styles.invite__primary}>
+          <p>
+            Nico and Nadejda joyfully request the pleasure of your company as we
+            speak our vows and join in marriage in the presence of family and
+            friends.
+          </p>
+        </div>
+        <div className={styles.invite__secondary}>
+          <p>
+            We&apos;ll start with a nonsectarian ceremony, then move to the
+            hotel for the reception. Dress code will be black tie optional
+          </p>
+        </div>
+      </section>
       <div className={styles.content__secondary}>
         <section className={styles.details__container}>
           <div className={styles.details__when}>

@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-column: 1/-1;
+  position: relative;
 }
 
 $font-family--copy: "PT Serif", -apple-system, BlinkMacSystemFont, Segoe UI,
