@@ -1,11 +1,128 @@
-@import "variables";
+@use "variables";
 
-.container {
-  padding: 0 2rem;
+// Layout
+//========
+
+.navigation {
+  @extend .grid;
+  align-items: center;
+  &__when {
+    grid-column: 2 / span 5;
+  }
+  &__rsvp {
+    grid-column: span 5 / -2;
+    justify-self: end;
+  }
 }
 
 .main {
-  min-height: 100vh;
+  @extend .grid;
+  .title__container {
+    grid-column: 2 / span 5;
+    grid-row: span 4;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+  }
+  .hero {
+    &__container {
+      grid-row: span 6;
+      @extend .grid;
+      align-content: flex-end;
+    }
+    &__tagline {
+      grid-column: 1 / 7;
+      grid-row: span 3;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .invite,
+  .closer {
+    &__container {
+      grid-row: span 8;
+      @extend .grid;
+      align-self: center;
+    }
+    &__primary,
+    &__secondary {
+      grid-column: 3/-3;
+      text-align: center;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      p {
+        margin: auto;
+      }
+    }
+    &__primary {
+      grid-row: span 3;
+    }
+    &__secondary {
+      grid-row: span 3;
+      border-bottom: thin solid gray;
+    }
+  }
+  .details {
+    &__container {
+      grid-row: span 9;
+      @extend .grid;
+    }
+    &__when,
+    &__where {
+      grid-column: span 6;
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      align-items: flex-start;
+      grid-row: span 9;
+    }
+  }
+  .profiles {
+    &__container {
+      // background-color: sandybrown;
+      @extend .grid;
+      grid-row: span 24;
+    }
+    &__single {
+      &__container {
+        @extend .grid;
+      }
+      &__title {
+        grid-column: 2 / 7;
+      }
+      &__content {
+        grid-column: 7 / -2;
+        grid-row: auto;
+      }
+    }
+  }
+}
+
+.hero__tagline {
+  background-color: green;
+  color: white;
+}
+
+.profiles {
+  &__container {
+    background-color: gray;
+  }
+}
+
+.details {
+  &__when,
+  &__where {
+    color: white;
+    padding: 60px;
+  }
+  &__when {
+    background-color: coral;
+  }
+  &__where {
+    background-color: green;
+  }
 }
 
 .footer {

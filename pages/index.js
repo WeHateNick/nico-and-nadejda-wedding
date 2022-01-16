@@ -11,36 +11,42 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <nav>
-        <a href="#" alt="RSVP">
+      <nav className={styles.navigation}>
+        <a href="#" alt="When and where" className={styles.navigation__when}>
           When &amp; Where
         </a>
-        <a href="#" alt="RSVP">
+        <a href="#" alt="RSVP" className={styles.navigation__rsvp}>
           RSVP
         </a>
       </nav>
 
       <main className={styles.main}>
-        <div>
+        <div className={styles.title__container}>
           <h1 className={styles.title}>Nicolas and Nadejda</h1>
           <h2 className={styles.subtitle}>9/3/2022</h2>
         </div>
-        <div>
-          <p>You&apos;re invited to our wedding</p>
+        <div className={styles.hero__container}>
+          <div className={styles.hero__tagline}>
+            <p>You&apos;re invited to our wedding</p>
+          </div>
         </div>
-        <section>
-          <p>
-            Nico and Nadejda joyfully request the pleasure of your company as we
-            speak our vows and join in marriage in the presence of family and
-            friends.
-          </p>
-          <p>
-            We&apos;ll start with a nonsectarian ceremony, then move to the
-            hotel for the reception. Dress code will be black tie optional
-          </p>
+        <section className={styles.invite__container}>
+          <div className={styles.invite__primary}>
+            <p>
+              Nico and Nadejda joyfully request the pleasure of your company as
+              we speak our vows and join in marriage in the presence of family
+              and friends.
+            </p>
+          </div>
+          <div className={styles.invite__secondary}>
+            <p>
+              We&apos;ll start with a nonsectarian ceremony, then move to the
+              hotel for the reception. Dress code will be black tie optional
+            </p>
+          </div>
         </section>
-        <section>
-          <div>
+        <section className={styles.details__container}>
+          <div className={styles.details__when}>
             <h2>When</h2>
             <p>Saturday, June 17, 2020</p>
             <p>Reception: 2pm—5pm</p>
@@ -49,9 +55,7 @@ export default function Home() {
               Details and RSVP
             </a>
           </div>
-        </section>
-        <section>
-          <div>
+          <div className={styles.details__where}>
             <h2>Where</h2>
             <p>The Melike Hotel</p>
             <p>123 Demo Street New York, NY 12345</p>
@@ -60,10 +64,24 @@ export default function Home() {
             </a>
           </div>
         </section>
-        <section>
-          <div>
-            <h2>The bride</h2>
-            <div>
+        <section className={styles.profiles__container}>
+          <div className={styles.profiles__single__container}>
+            <h2 className={styles.profiles__single__title}>The bride</h2>
+            <div className={styles.profiles__single__content}>
+              <p>
+                I&apos;m baby selfies craft beer hammock hexagon celiac, squid
+                vaporware flexitarian tofu snackwave photo booth. Brooklyn
+                iceland ennui sriracha. Blue bottle tousled single-origin coffee
+                post-ironic. Thundercats bespoke etsy meggings.
+              </p>
+              <p>
+                Slow-carb cold-pressed roof party wayfarers quinoa. Yr small
+                batch tattooed twee ugh snackwave cloud bread. Locavore
+                waistcoat palo santo street art cardigan aesthetic enamel pin
+                flannel schlitz plaid artisan church-key keffiyeh disrupt
+                drinking vinegar. Cliche aesthetic whatever kale chips raclette
+                umami edison bulb master cleanse cloud bread.
+              </p>
               <p>
                 I&apos;m baby selfies craft beer hammock hexagon celiac, squid
                 vaporware flexitarian tofu snackwave photo booth. Brooklyn
@@ -80,9 +98,23 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div>
-            <h2>The groom</h2>
-            <div>
+          <div className={styles.profiles__single__container}>
+            <h2 className={styles.profiles__single__title}>The groom</h2>
+            <div className={styles.profiles__single__content}>
+              <p>
+                I&apos;m baby selfies craft beer hammock hexagon celiac, squid
+                vaporware flexitarian tofu snackwave photo booth. Brooklyn
+                iceland ennui sriracha. Blue bottle tousled single-origin coffee
+                post-ironic. Thundercats bespoke etsy meggings.
+              </p>
+              <p>
+                Slow-carb cold-pressed roof party wayfarers quinoa. Yr small
+                batch tattooed twee ugh snackwave cloud bread. Locavore
+                waistcoat palo santo street art cardigan aesthetic enamel pin
+                flannel schlitz plaid artisan church-key keffiyeh disrupt
+                drinking vinegar. Cliche aesthetic whatever kale chips raclette
+                umami edison bulb master cleanse cloud bread.
+              </p>
               <p>
                 I&apos;m baby selfies craft beer hammock hexagon celiac, squid
                 vaporware flexitarian tofu snackwave photo booth. Brooklyn
@@ -100,12 +132,16 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section>
-          <p>We hope you can join us</p>
-          <p>
-            We&apos;ll start with a nonsectarian ceremony, then move to the
-            hotel for the reception. Dress code will be black tie optional
-          </p>
+        <section className={styles.closer__container}>
+          <div className={styles.closer__primary}>
+            <p>We hope you can join us</p>
+          </div>
+          <div className={styles.closer__secondary}>
+            <p>
+              We&apos;ll start with a nonsectarian ceremony, then move to the
+              hotel for the reception. Dress code will be black tie optional
+            </p>
+          </div>
         </section>
       </main>
       <footer className={styles.footer}>Nicolas and Nadejda</footer>
