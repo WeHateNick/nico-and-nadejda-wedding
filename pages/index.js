@@ -35,7 +35,12 @@ export default function Home() {
           <p>You&apos;re invited to our wedding</p>
         </div>
         <div className={styles.hero__image__container}>
-          <Image src={heroImage} alt="Picture of the author" layout="fill" />
+          <Image
+            className={styles.hero__image}
+            src={heroImage}
+            alt="Nico and Nadejda"
+            layout="fill"
+          />
         </div>
       </div>
       <section className={styles.invite__container}>
