@@ -62,9 +62,8 @@
 .invite,
 .closer {
   &__container {
-    grid-row: span 12;
     @extend .grid;
-    grid-auto-rows: 60px;
+    grid-template-rows: repeat(12, 60px);
     align-self: center;
   }
   &__primary,
@@ -79,10 +78,10 @@
     }
   }
   &__primary {
-    grid-row: span 6;
+    grid-row: 4 / span 3;
   }
   &__secondary {
-    grid-row: span 3;
+    grid-row: span 3 / -3;
     border-bottom: thin solid var.$color--gray--lightest;
   }
 }
