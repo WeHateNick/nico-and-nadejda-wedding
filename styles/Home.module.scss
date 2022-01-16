@@ -1,10 +1,11 @@
-@use "variables";
+@use "variables" as var;
 
 // Layout
 //========
 
 .navigation {
   @extend .grid;
+  grid-auto-rows: 60px;
   align-items: center;
   &__when {
     grid-column: 2 / span 5;
@@ -17,6 +18,7 @@
 
 .main {
   @extend .grid;
+  grid-auto-rows: 60px;
   .title__container {
     grid-column: 2 / span 5;
     grid-row: span 4;
@@ -28,6 +30,7 @@
     &__container {
       grid-row: span 6;
       @extend .grid;
+      grid-auto-rows: 60px;
       align-content: flex-end;
     }
     &__tagline {
@@ -38,32 +41,39 @@
       align-items: center;
     }
   }
-  .invite,
-  .closer {
-    &__container {
-      grid-row: span 8;
-      @extend .grid;
-      align-self: center;
-    }
-    &__primary,
-    &__secondary {
-      grid-column: 3/-3;
-      text-align: center;
-      height: 100%;
-      display: flex;
-      align-items: center;
-      p {
-        margin: auto;
-      }
-    }
-    &__primary {
-      grid-row: span 3;
-    }
-    &__secondary {
-      grid-row: span 3;
-      border-bottom: thin solid gray;
+}
+
+.invite,
+.closer {
+  &__container {
+    grid-row: span 12;
+    @extend .grid;
+    grid-auto-rows: 60px;
+    align-self: center;
+  }
+  &__primary,
+  &__secondary {
+    grid-column: 3/-3;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    p {
+      margin: auto;
     }
   }
+  &__primary {
+    grid-row: span 6;
+  }
+  &__secondary {
+    grid-row: span 3;
+    border-bottom: thin solid var.$color--gray--lightest;
+  }
+}
+
+.content__secondary {
+  @extend .grid;
+  margin-top: 24vh;
   .details {
     &__container {
       grid-row: span 9;
@@ -81,55 +91,122 @@
   }
   .profiles {
     &__container {
-      // background-color: sandybrown;
       @extend .grid;
-      grid-row: span 24;
     }
     &__single {
       &__container {
+        grid-column: 2/-2;
         @extend .grid;
+        padding: 42vh 0;
       }
       &__title {
-        grid-column: 2 / 7;
+        grid-column: 1 / 7;
+        margin: 0;
       }
       &__content {
-        grid-column: 7 / -2;
-        grid-row: auto;
+        grid-column: 7 / -1;
+      }
+      &--bride {
+        border-bottom: thin solid var.$color--gray--lightest;
       }
     }
   }
 }
 
-.hero__tagline {
-  background-color: green;
-  color: white;
+// Styles
+//========
+
+.navigation {
+  @extend .link--nav;
 }
 
-.profiles {
-  &__container {
-    background-color: gray;
+.main {
+  @extend .copy--regular;
+}
+
+.title {
+  @extend .display--large;
+}
+
+.subtitle {
+  @extend .copy--secondary;
+  padding-left: 1em;
+  color: var.$color--gray;
+}
+
+.hero__tagline {
+  @extend .copy--highlight;
+  background-color: var.$color--background--accent;
+  color: var.$color--white--80;
+}
+
+.invite {
+  &__primary {
+    @extend .copy--highlight;
+  }
+  &__secondary {
+    @extend .copy--secondary;
   }
 }
 
 .details {
   &__when,
   &__where {
-    color: white;
     padding: 60px;
+    @extend .copy--regular;
+    color: var.$color--white--90;
   }
   &__when {
-    background-color: coral;
+    background-color: var.$color--background--accent--secondary;
   }
   &__where {
-    background-color: green;
+    background-color: var.$color--background--accent;
+  }
+  &__highlight {
+    @extend .display--medium;
+    color: var.$color--white--80;
+    margin-bottom: 1em;
+  }
+  &__action {
+    @extend .link--action;
+    color: var.$color--white--90;
+    margin-top: 1.5em;
+    &:hover {
+      color: var.$color--white--80;
+    }
+  }
+}
+
+.profiles {
+  &__container {
+    background-color: var.$color--background--secondary--alt;
+  }
+  &__single {
+    &__title {
+      @extend .display--large;
+    }
+    &__content {
+      @extend .copy--secondary;
+    }
+  }
+}
+
+.closer {
+  &__primary {
+    @extend .copy--highlight;
+    padding-top: 4em;
+  }
+  &__secondary {
+    @extend .copy--secondary;
+    padding-bottom: 4em;
   }
 }
 
 .footer {
+  @extend .copy--highlight;
   display: flex;
   flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
+  padding: 24vh 0 8vh;
   justify-content: center;
   align-items: center;
 }

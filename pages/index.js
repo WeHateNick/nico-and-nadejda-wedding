@@ -1,8 +1,11 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.scss";
+import classNames from "classnames/bind";
 
 export default function Home() {
+  const cx = classNames.bind(styles);
+
   return (
     <div className={styles.container}>
       <Head>
@@ -23,7 +26,7 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.title__container}>
           <h1 className={styles.title}>Nicolas and Nadejda</h1>
-          <h2 className={styles.subtitle}>9/3/2022</h2>
+          <h2 className={styles.subtitle}>&ndash; 9/3/2022 &ndash;</h2>
         </div>
         <div className={styles.hero__container}>
           <div className={styles.hero__tagline}>
@@ -45,27 +48,40 @@ export default function Home() {
             </p>
           </div>
         </section>
+      </main>
+      <div className={styles.content__secondary}>
         <section className={styles.details__container}>
           <div className={styles.details__when}>
             <h2>When</h2>
-            <p>Saturday, June 17, 2020</p>
+            <p className={styles.details__highlight}>Saturday, June 17, 2020</p>
             <p>Reception: 2pm—5pm</p>
             <p>Ceremony: 6pm—10pm</p>
-            <a href="#" alt="RSVP">
+            <a className={styles.details__action} href="#" alt="RSVP">
               Details and RSVP
             </a>
           </div>
           <div className={styles.details__where}>
             <h2>Where</h2>
-            <p>The Melike Hotel</p>
-            <p>123 Demo Street New York, NY 12345</p>
-            <a href="#" alt="How to get there">
+            <p className={styles.details__highlight}>The Melike Hotel</p>
+            <p>123 Demo Street</p>
+            <p>New York, NY 12345</p>
+
+            <a
+              className={styles.details__action}
+              href="#"
+              alt="How to get there"
+            >
               How to get there
             </a>
           </div>
         </section>
         <section className={styles.profiles__container}>
-          <div className={styles.profiles__single__container}>
+          <div
+            className={cx(
+              "profiles__single__container",
+              "profiles__single--bride"
+            )}
+          >
             <h2 className={styles.profiles__single__title}>The bride</h2>
             <div className={styles.profiles__single__content}>
               <p>
@@ -92,13 +108,18 @@ export default function Home() {
                 Slow-carb cold-pressed roof party wayfarers quinoa. Yr small
                 batch tattooed twee ugh snackwave cloud bread. Locavore
                 waistcoat palo santo street art cardigan aesthetic enamel pin
-                flannel schlitz plaid artisan church-key keffiyeh disrupt
+                flannel schlitz plaid artisan church-key keffiy eh disrupt
                 drinking vinegar. Cliche aesthetic whatever kale chips raclette
                 umami edison bulb master cleanse cloud bread.
               </p>
             </div>
           </div>
-          <div className={styles.profiles__single__container}>
+          <div
+            className={cx(
+              "profiles__single__container",
+              "profiles__single--groom"
+            )}
+          >
             <h2 className={styles.profiles__single__title}>The groom</h2>
             <div className={styles.profiles__single__content}>
               <p>
@@ -143,7 +164,7 @@ export default function Home() {
             </p>
           </div>
         </section>
-      </main>
+      </div>
       <footer className={styles.footer}>Nicolas and Nadejda</footer>
     </div>
   );
