@@ -4,6 +4,7 @@ import Image from "next/image";
 import styles from "../styles/Home.module.scss";
 import classNames from "classnames/bind";
 import heroImage from "../public/images/hero-image.png";
+import ChevronRightIcon from "@material-ui/icons/ChevronRight";
 
 export default function Home() {
   const cx = classNames.bind(styles);
@@ -79,7 +80,7 @@ export default function Home() {
             <p>Reception: 2pm—5pm</p>
             <p>Ceremony: 6pm—10pm</p>
             <a className={styles.details__action} href="#" alt="RSVP">
-              Details and RSVP
+              <span>Details and RSVP</span> <ChevronRightIcon />
             </a>
           </div>
           <div className={styles.details__where}>
@@ -93,7 +94,7 @@ export default function Home() {
               href="#"
               alt="How to get there"
             >
-              How to get there
+              <span>How to get there</span> <ChevronRightIcon />
             </a>
           </div>
         </section>
