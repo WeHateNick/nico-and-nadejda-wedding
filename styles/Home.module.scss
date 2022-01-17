@@ -145,6 +145,10 @@
   background-color: var.$color--background--primary;
   &:hover {
     opacity: 1;
+    transition: all 200ms var.$ease-in--quint;
+  }
+  a:hover {
+    color: var.$color--background--accent;
   }
   &--scrolled {
     transition: all 600ms var.$ease-out--quint;
