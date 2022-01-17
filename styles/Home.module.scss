@@ -173,6 +173,10 @@
     @extend .copy--highlight;
     background-color: var.$color--background--accent;
     color: var.$color--white--80;
+    border-top-right-radius: 6px;
+  }
+  &__image {
+    border-radius: 6px;
   }
 }
 
