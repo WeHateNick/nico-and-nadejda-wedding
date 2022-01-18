@@ -50,6 +50,7 @@
         z-index: 5;
         opacity: 1;
         transition: all 800ms var.$ease-in--quint;
+        box-shadow: var.$shadow--large;
       }
     }
     &--1 {
