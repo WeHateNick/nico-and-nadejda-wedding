@@ -4,6 +4,7 @@ import styles from "../styles/Home.module.scss";
 import classNames from "classnames/bind";
 import heroImage from "../public/images/hero-image.png";
 import ChevronRightIcon from "@material-ui/icons/ChevronRight";
+import Link from "next/link";
 import Navigation from "../components/Navigation/Navigation";
 import Footer from "../components/Footer/Footer";
 
@@ -73,7 +74,7 @@ export default function Home() {
 
             <a
               className={styles.details__action}
-              href="#"
+              href="getting-there"
               alt="How to get there"
             >
               <span>How to get there</span> <ChevronRightIcon />
