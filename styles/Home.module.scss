@@ -142,7 +142,7 @@
   &__tagline {
     @extend .copy--highlight;
     background-color: var.$color--background--accent;
-    color: var.$color--white--80;
+    color: var.$color--white--90;
     border-top-right-radius: 6px;
   }
   &__image {
@@ -164,7 +164,7 @@
   &__where {
     padding: 60px;
     @extend .copy--regular;
-    color: var.$color--white--90;
+    color: var.$color--white--80;
   }
   &__when {
     background-color: var.$color--background--accent--secondary;
@@ -174,17 +174,17 @@
   }
   &__highlight {
     @extend .display--medium;
-    color: var.$color--white--80;
+    color: var.$color--white--90;
     margin-bottom: 1em;
   }
   &__action {
     @extend .link--action;
-    color: var.$color--white--90;
+    color: var.$color--white--80;
     margin-top: 1.5em;
     display: flex;
     align-items: center;
     &:hover {
-      color: var.$color--white--80;
+      color: var.$color--white--90;
     }
   }
 }
