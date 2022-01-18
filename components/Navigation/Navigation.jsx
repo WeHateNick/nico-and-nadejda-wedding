@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import styles from "./Navigation.module.scss";
 import classNames from "classnames/bind";
 import Link from "next/link";
+import HomeIcon from "@material-ui/icons/Home";
 
 export default function Navigation() {
   const cx = classNames.bind(styles);
@@ -18,6 +19,11 @@ export default function Navigation() {
 
   return (
     <nav className={cx("navigation", { "navigation--scrolled": offset > 10 })}>
+      <span className={styles.navigation__home}>
+        <Link href="/" alt="home" passHref>
+          <HomeIcon />
+        </Link>
+      </span>
       <span className={cx("navigation__when", "navigation__link")}>
         <Link href="/getting-there" alt="When and where">
           When &amp; Where
