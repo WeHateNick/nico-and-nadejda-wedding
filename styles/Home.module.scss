@@ -213,19 +213,3 @@
     padding-bottom: 4em;
   }
 }
-
-.footer {
-  @extend .copy--highlight;
-  display: flex;
-  flex: 1;
-  padding: 24vh 0 8vh;
-  justify-content: center;
-  align-items: center;
-}
-
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
-}

@@ -5,6 +5,7 @@ import classNames from "classnames/bind";
 import heroImage from "../public/images/hero-image.png";
 import ChevronRightIcon from "@material-ui/icons/ChevronRight";
 import Navigation from "../components/Navigation/Navigation";
+import Footer from "../components/Footer/Footer";
 
 export default function Home() {
   const cx = classNames.bind(styles);
@@ -87,6 +88,7 @@ export default function Home() {
           </div>
         </section>
       </div>
+      <Footer />
     </div>
   );
 }
