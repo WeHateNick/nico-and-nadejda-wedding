@@ -6,10 +6,16 @@
   align-items: center;
   &__when {
     grid-column: 2 / span 2;
+    @media (max-width: var.$breakpoint--medium) {
+      grid-column: 2/4;
+    }
   }
   &__rsvp {
     grid-column: span 2 / -2;
     justify-self: end;
+    @media (max-width: var.$breakpoint--medium) {
+      grid-column: 4/-2;
+    }
   }
 }
 

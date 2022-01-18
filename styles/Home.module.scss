@@ -37,12 +37,14 @@
       position: relative;
       grid-column: 6 / -2;
       grid-row: span 8 / -1;
-      align-self: end;
-      z-index: 1;
       height: 34vw;
       max-height: 100%;
-      max-width: 850px;
-      text-transform: right;
+      @media (max-width: var.$breakpoint--medium) {
+        grid-column: 1/-1;
+        height: 50vh;
+      }
+      align-self: end;
+      z-index: 1;
     }
   }
 }
@@ -57,6 +59,9 @@
   &__primary,
   &__secondary {
     grid-column: 3/-3;
+    @media (max-width: var.$breakpoint--medium) {
+      grid-column: 2/-2;
+    }
     text-align: center;
     height: 100%;
     display: flex;
@@ -96,6 +101,10 @@
   .profiles {
     &__container {
       @extend .grid;
+      @media (max-width: var.$breakpoint--medium) {
+        display: flex;
+        flex-flow: column;
+      }
     }
     &__single {
       &__container {
@@ -105,10 +114,16 @@
       }
       &__title {
         grid-column: 1 / 7;
+        @media (max-width: var.$breakpoint--medium) {
+          grid-column: 2/-1;
+        }
         margin: 0;
       }
       &__content {
         grid-column: 7 / -1;
+        @media (max-width: var.$breakpoint--medium) {
+          grid-column: 2/-2;
+        }
       }
       &--bride {
         border-bottom: thin solid var.$color--gray--lightest;
@@ -196,6 +211,7 @@
   &__single {
     &__title {
       @extend .display--large;
+      padding-bottom: 1em;
     }
     &__content {
       @extend .copy--secondary;
