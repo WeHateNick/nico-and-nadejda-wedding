@@ -1,0 +1,35 @@
+@use "../../styles/variables" as var;
+
+.navigation {
+  @extend .grid;
+  grid-auto-rows: 80px;
+  align-items: center;
+  &__when {
+    grid-column: 2 / span 2;
+  }
+  &__rsvp {
+    grid-column: span 2 / -2;
+    justify-self: end;
+  }
+}
+
+.navigation {
+  @extend .link--nav;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: var.$color--background--primary;
+  &:hover {
+    opacity: 1;
+    transition: all 200ms var.$ease-in--quint;
+  }
+  a:hover {
+    color: var.$color--background--accent;
+  }
+  &--scrolled {
+    transition: all 600ms var.$ease-out--quint;
+    opacity: 0.7;
+    box-shadow: var.$shadow--medium;
+    grid-auto-rows: unset;
+  }
+}

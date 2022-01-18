@@ -3,19 +3,6 @@
 // Layout
 //========
 
-.navigation {
-  @extend .grid;
-  grid-auto-rows: 80px;
-  align-items: center;
-  &__when {
-    grid-column: 2 / span 5;
-  }
-  &__rsvp {
-    grid-column: span 5 / -2;
-    justify-self: end;
-  }
-}
-
 .main {
   @extend .grid;
   grid-template-rows: repeat(6, 60px);
@@ -135,27 +122,6 @@
 
 .container {
   background-color: var.$color--background--primary;
-}
-
-.navigation {
-  @extend .link--nav;
-  position: sticky;
-  top: 0;
-  z-index: 10;
-  background-color: var.$color--background--primary;
-  &:hover {
-    opacity: 1;
-    transition: all 200ms var.$ease-in--quint;
-  }
-  a:hover {
-    color: var.$color--background--accent;
-  }
-  &--scrolled {
-    transition: all 600ms var.$ease-out--quint;
-    opacity: 0.7;
-    box-shadow: var.$shadow--medium;
-    grid-auto-rows: unset;
-  }
 }
 
 .main {

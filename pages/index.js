@@ -1,23 +1,13 @@
 import Head from "next/head";
-import { useState, useEffect } from "react";
 import Image from "next/image";
 import styles from "../styles/Home.module.scss";
 import classNames from "classnames/bind";
 import heroImage from "../public/images/hero-image.png";
 import ChevronRightIcon from "@material-ui/icons/ChevronRight";
+import Navigation from "../components/Navigation/Navigation";
 
 export default function Home() {
   const cx = classNames.bind(styles);
-  const [offset, setOffset] = useState(0);
-
-  useEffect(() => {
-    const onScroll = () => setOffset(window.pageYOffset);
-
-    window.removeEventListener("scroll", onScroll);
-    window.addEventListener("scroll", onScroll, { passive: true });
-
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
 
   return (
     <div className={styles.container}>
@@ -27,16 +17,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <nav
-        className={cx("navigation", { "navigation--scrolled": offset > 10 })}
-      >
-        <a href="#" alt="When and where" className={styles.navigation__when}>
-          When &amp; Where
-        </a>
-        <a href="#" alt="RSVP" className={styles.navigation__rsvp}>
-          RSVP
-        </a>
-      </nav>
+      <Navigation />
 
       <main className={styles.main}>
         <div className={styles.title__container}>
