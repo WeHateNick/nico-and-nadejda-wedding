@@ -26,7 +26,23 @@ export default function Home() {
         </div>
       </main>
       <div className={styles.hero__container}>
-        <div className={styles.hero__image__container}>
+        <div className={cx("hero__image__container", "hero__image--1")}>
+          <Image
+            className={styles.hero__image}
+            src={heroImage}
+            alt="Nico and Nadejda"
+            layout="fill"
+          />
+        </div>
+        <div className={cx("hero__image__container", "hero__image--2")}>
+          <Image
+            className={styles.hero__image}
+            src={heroImage}
+            alt="Nico and Nadejda"
+            layout="fill"
+          />
+        </div>
+        <div className={cx("hero__image__container", "hero__image--3")}>
           <Image
             className={styles.hero__image}
             src={heroImage}
