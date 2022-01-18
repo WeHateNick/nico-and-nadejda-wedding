@@ -57,7 +57,7 @@ export default function Home() {
             <h2 className={styles.list__single__title}>By train</h2>
             <div className={styles.list__single__content}>
               <p>
-                Gare de Lyon (Paris) -> Gare de Fontainebleau
+                Gare de Lyon (Paris) to Gare de Fontainebleau
                 <ul>
                   <li>45 mins</li>
                   <li>Runs every half hour</li>
