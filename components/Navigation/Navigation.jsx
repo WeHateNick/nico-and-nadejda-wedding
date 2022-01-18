@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import styles from "./Navigation.module.scss";
 import classNames from "classnames/bind";
+import Link from "next/link";
 
 export default function Navigation() {
   const cx = classNames.bind(styles);
@@ -17,16 +18,16 @@ export default function Navigation() {
 
   return (
     <nav className={cx("navigation", { "navigation--scrolled": offset > 10 })}>
-      <a
-        href="/getting-there"
-        alt="When and where"
-        className={styles.navigation__when}
-      >
-        When &amp; Where
-      </a>
-      <a href="#" alt="RSVP" className={styles.navigation__rsvp}>
-        RSVP
-      </a>
+      <span className={cx("navigation__when", "navigation__link")}>
+        <Link href="/getting-there" alt="When and where">
+          When &amp; Where
+        </Link>
+      </span>
+      <span className={cx("navigation__rsvp", "navigation__link")}>
+        <Link href="#" alt="RSVP">
+          RSVP
+        </Link>
+      </span>
     </nav>
   );
 }
