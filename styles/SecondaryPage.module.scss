@@ -163,11 +163,12 @@
     position: relative;
     max-width: 50vw;
     height: 900px;
+    padding-top: 1px;
     padding-bottom: 2em;
     margin: auto;
     border: thin solid var.$color--gray--lightest;
-    border-radius: 2px;
-    // box-shadow: var.$shadow--medium;
+    border-radius: 2px 2px 8px 8px;
+    box-shadow: var.$shadow--small;
     margin-bottom: 4em;
   }
 }
