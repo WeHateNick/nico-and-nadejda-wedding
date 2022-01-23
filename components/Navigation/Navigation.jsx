@@ -30,7 +30,7 @@ export default function Navigation() {
         </Link>
       </span>
       <span className={cx("navigation__rsvp", "navigation__link")}>
-        <Link href="#" alt="RSVP">
+        <Link href="/rsvp" alt="RSVP">
           RSVP
         </Link>
       </span>

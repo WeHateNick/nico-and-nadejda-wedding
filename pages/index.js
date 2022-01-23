@@ -1,10 +1,10 @@
 import Head from "next/head";
 import Image from "next/image";
+import Script from "next/script";
 import styles from "../styles/Home.module.scss";
 import classNames from "classnames/bind";
 import heroImage from "../public/images/hero-image.png";
 import ChevronRightIcon from "@material-ui/icons/ChevronRight";
-import Link from "next/link";
 import Navigation from "../components/Navigation/Navigation";
 import Footer from "../components/Footer/Footer";
 
