@@ -212,25 +212,120 @@ export default function Home() {
               <p className={styles.subsection__content}>
                 <ul>
                   <li>
-                    L&apos;Anneau de Mallarmé, Vulaines - call for reservation
-                    +33 1 64 23 71 61
+                    <a href="https://www.anneau-mallarme.fr/">
+                      L&apos;Anneau de Mallarmé, Vulaines
+                    </a>{" "}
+                    (call for reservation &nbsp;
+                    <a href="tel:+33164237161">+33 1 64 23 71 61</a>)
                   </li>
                   <li>
-                    Le Country Club, Samois - call for reservation +33 1 64 24
-                    60 34
+                    <a href="https://www.hotels.com/ho700512672?rffrid=sem.hcom.xx.156.020.localuniversal.02.">
+                      Le Country Club, Samois
+                    </a>{" "}
+                    (call for reservation &nbsp;
+                    <a href="tel:+33164246034">
+                      (call for reservation +33 1 64 24 60 34)
+                    </a>
+                    )
                   </li>
-                  <li>Ibis Budget Fontainebleau-Avon</li>
-                  <li>Wisteria, Maison d&apos;hôtes Fontainebleau</li>
-                  <li>La Demeure du Parc, Boutique hotel, Fontainebleau</li>
-                  <li>Hotel Belle Fontainebleau</li>
-                  <li>Hotel Aigle Noir Fontainebleau</li>
-                  <li>Ibis Chateau de Fontainebleau</li>
-                  <li>Hotel Le Richelieu Fontainebleau</li>
-                  <li>Hotel de Londres Fontainebleau</li>
-                  <li>La Carpe d&apos;Or Fontainebleau</li>
-                  <li>Hotel Victoria Fontainebleau</li>
                   <li>
-                    Hotel Mercure Chateau de Fontainebleau Demeure de Campagne
+                    <a
+                      href="https://all.accor.com/hotel/2720/index.en.shtml"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Ibis Budget Fontainebleau-Avon
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.wisteriafontainebleau.com/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Wisteria, Maison d&apos;hôtes Fontainebleau
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="http://www.lademeureduparc.fr/en/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      La Demeure du Parc, Boutique hotel, Fontainebleau
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.hotel-belle-fontainebleau.com/fr"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Hotel Belle Fontainebleau
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.aiglenoirhotel.com/en/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Hotel Aigle Noir Fontainebleau
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://all.accor.com/hotel/1028/index.en.shtml"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Ibis Chateau de Fontainebleau
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.hotelrichelieufontainebleau.com/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Hotel Le Richelieu Fontainebleau
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="http://www.hoteldelondres.com/en/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Hotel de Londres Fontainebleau
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.hotelcarpedor.com/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      La Carpe d&apos;Or Fontainebleau
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.hotelvictoria.com/en/hotel-victoria-en/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Hotel Victoria Fontainebleau
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://all.accor.com/hotel/1627/index.en.shtml"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Hotel Mercure Chateau de Fontainebleau Demeure de Campagne
+                    </a>
                   </li>
                 </ul>
               </p>
@@ -244,15 +339,87 @@ export default function Home() {
             <div className={styles.subsection}>
               <p className={styles.subsection__content}>
                 <ul>
-                  <li>Samois, Studio de charme en bord de Seine</li>
-                  <li>La chambre dans la maison du sourire à Samois</li>
-                  <li>Cottage la Bacotte, Bois-Le-Roi</li>
-                  <li>Les Bulles d&apos;Iris, Vulaines-sur-Seine</li>
-                  <li>Le Vieux Moulin de Valvins, Avon</li>
-                  <li>Maisonnette de Charme, Hericy</li>
-                  <li>Chambre privée Joséphine, Villa La Fougeraie, Avon</li>
-                  <li>Aux voyageurs d&apos;un temps, Saint Mamme</li>
-                  <li>Mon cocon au bord de l&apos;eau à Moret sur loing</li>
+                  <li>
+                    <a
+                      href="https://www.airbnb.com/rooms/43123404?check_in=2021-12-18&check_out=2021-12-19&translate_ugc=false&federated_search_id=bf121b11-52ec-4f63-bfde-b48ab8faac7e&source_impression_id=p3_1633861653_zfciQbhnAm30%2BerB&guests=1&adults=1"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Samois, Studio de charme en bord de Seine
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.airbnb.com/rooms/31922350?location=Samoreau%2C%20Ile-de-France%2C%20France&check_in=2021-12-18&check_out=2021-12-19&translate_ugc=false&federated_search_id=de74eca1-183d-443d-8d9b-bbfeb2235efa&source_impression_id=p3_1633862109_5rW7JF7FvNl%2FPUge&guests=1&adults=1"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      La chambre dans la maison du sourire à Samois
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.airbnb.com/rooms/34965490?check_in=2021-12-18&check_out=2021-12-19&translate_ugc=false&federated_search_id=a879177c-9532-4e84-84ba-0055b78daff4&source_impression_id=p3_1633861934_x8y6KwSflpb8gzHt&guests=1&adults=1"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Cottage la Bacotte, Bois-Le-Roi
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.airbnb.com/rooms/39591581?check_in=2021-12-18&check_out=2021-12-19&translate_ugc=false&federated_search_id=a879177c-9532-4e84-84ba-0055b78daff4&source_impression_id=p3_1633861958_AfDn9DEqH2mLrFFM&guests=1&adults=1"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Les Bulles d&apos;Iris, Vulaines-sur-Seine
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.airbnb.com/rooms/21160204?check_in=2021-12-18&check_out=2021-12-19&translate_ugc=false&federated_search_id=a879177c-9532-4e84-84ba-0055b78daff4&source_impression_id=p3_1633862043_XNbgxuCopvzqpPMM"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Le Vieux Moulin de Valvins, Avon
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.airbnb.com/rooms/36215458?location=Samoreau%2C%20Ile-de-France%2C%20France&check_in=2021-12-18&check_out=2021-12-19&translate_ugc=false&federated_search_id=de74eca1-183d-443d-8d9b-bbfeb2235efa&source_impression_id=p3_1633862309_yIU4tw1G%2FekXJCU%2B&guests=1&adults=1"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Maisonnette de Charme, Hericy
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.airbnb.com/rooms/41867061?location=Samoreau%2C%20Ile-de-France%2C%20France&check_in=2021-12-18&check_out=2021-12-19&translate_ugc=false&federated_search_id=e9d9aeca-cd28-4cad-af41-1dd0a79d4558&source_impression_id=p3_1633862447_1FL6hwHi9UZG03lQ&guests=1&adults=1"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Chambre privée Joséphine, Villa La Fougeraie, Avon
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.airbnb.com/rooms/47132692?location=Samoreau%2C%20Ile-de-France%2C%20France&check_in=2021-12-18&check_out=2021-12-19&translate_ugc=false&federated_search_id=a709c0ae-5b1b-4591-a328-8d23f0076fb4&source_impression_id=p3_1633862699_sKMXPqoRHMFnt1gJ&guests=1&adults=1"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Aux voyageurs d&apos;un temps, Saint Mamme
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.airbnb.com/rooms/48294270?check_in=2021-12-18&check_out=2021-12-19&translate_ugc=false&federated_search_id=333114d5-f7cd-4f1b-8993-0a5c8177b673&source_impression_id=p3_1633861805_zR%2B4%2Fij1iOGajcI%2B&guests=1&adults=1"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Mon cocon au bord de l&apos;eau à Moret sur loing
+                    </a>
+                  </li>
                 </ul>
               </p>
             </div>
@@ -263,9 +430,34 @@ export default function Home() {
             <div className={styles.subsection}>
               <p className={styles.subsection__content}>
                 <ul>
-                  <li>Domaine de Graville Tree Huts</li>
-                  <li>Chambres d&apos;hotes Peniche Eden Samois sur seine</li>
-                  <li>Les Bulles d&apos;Iris, Vulaines-sur-Seine</li>
+                  <li>
+                    <a
+                      href="https://www.tripadvisor.com/Hotel_Review-g187145-d3460325-Reviews-Le_Domaine_de_Graville-Fontainebleau_Seine_et_Marne_Ile_de_France.html#/media/3460325/93249249:p/?albumid=101&type=0&category=101"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Domaine de Graville
+                    </a>
+                    &nbsp; Tree Huts
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.chambres-hotes.fr/chambres-hotes_peniche-eden_samois-sur-seine_32014.htm"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Chambres d&apos;hotes Peniche Eden Samois sur seine
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.tripadvisor.com/Hotel_Review-g1934144-d1949134-Reviews-Les_Roulottes_de_Bois_le_Roi-Bois_le_Roi_Fontainebleau_Seine_et_Marne_Ile_de_France.html"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Les Bulles d&apos;Iris, Vulaines-sur-Seine
+                    </a>
+                  </li>
                 </ul>
               </p>
             </div>
