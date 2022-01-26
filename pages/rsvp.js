@@ -1,11 +1,12 @@
 import Head from "next/head";
 import Image from "next/image";
 import Script from "next/script";
-import styles from "../../styles/SecondaryPage.module.scss";
+import styles from "../styles/SecondaryPage.module.scss";
 import classNames from "classnames/bind";
-import heroImage from "../../public/images/hero-image.png";
-import Navigation from "../../components/Navigation/Navigation";
-import Footer from "../../components/Footer/Footer";
+import heroImage from "../public/images/hero-image.png";
+import Navigation from "../components/Navigation/Navigation";
+import RsvpForm from "../components/RsvpForm/RsvpForm";
+import Footer from "../components/Footer/Footer";
 
 export default function Rsvp() {
   const cx = classNames.bind(styles);
@@ -63,19 +64,8 @@ export default function Rsvp() {
           </p>
         </div>
       </section>
-      <section className={styles.rsvp__container}>
-        <iframe
-          scrolling="no"
-          style={{
-            width: "100%",
-            height: "100%",
-            overflow: "hidden",
-            border: "none",
-          }}
-          type="text/javascript"
-          src={"https://nicolasandnadejdawedding.rsvpify.com?embed=1"}
-        ></iframe>
-      </section>
+      <RsvpForm />
+      <Footer />
     </div>
   );
 }

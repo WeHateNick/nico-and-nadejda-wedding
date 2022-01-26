@@ -1,0 +1,16 @@
+@use "../../styles/variables" as var;
+
+.rsvp {
+  &__container {
+    position: relative;
+    max-width: 50vw;
+    height: 900px;
+    padding-top: 1px;
+    padding-bottom: 40px;
+    margin: auto;
+    border: thin solid var.$color--gray--lightest;
+    border-radius: 2px 2px 8px 8px;
+    box-shadow: var.$shadow--small;
+    margin-bottom: 4em;
+  }
+}

@@ -43,15 +43,16 @@ export default function Home() {
       <section className={styles.invite__container}>
         <div className={styles.invite__primary}>
           <p>
-            Nico and Nadejda joyfully request the pleasure of your company as we
-            speak our vows and join in marriage in the presence of family and
-            friends.
+            We would be honored to celebrate our special day with you.
+            We&apos;re so excited to get married in the company of our friends
+            and family. Find all the details you need to know about our big day
+            here.
           </p>
         </div>
         <div className={styles.invite__secondary}>
           <p>
-            We&apos;ll start with a nonsectarian ceremony, then move to the
-            hotel for the reception. Dress code will be black tie optional
+            We&apos;ll kick things off with a ceremony and vows followed by a
+            reception.
           </p>
         </div>
       </section>
@@ -59,19 +60,20 @@ export default function Home() {
         <section className={styles.details__container}>
           <div className={styles.details__when}>
             <h2>When</h2>
-            <p className={styles.details__highlight}>Saturday, June 17, 2020</p>
-            <p>Reception: 2pm—5pm</p>
-            <p>Ceremony: 6pm—10pm</p>
-            <a className={styles.details__action} href="#" alt="RSVP">
+            <p className={styles.details__highlight}>
+              Saturday, September 3, 2022
+            </p>
+            <p>Ceremony: 4 PM — 5 PM</p>
+            <p>Reception: 5 PM forward</p>
+            <a className={styles.details__action} href="rsvp" alt="RSVP">
               <span>Details and RSVP</span> <ChevronRightIcon />
             </a>
           </div>
           <div className={styles.details__where}>
             <h2>Where</h2>
-            <p className={styles.details__highlight}>The Melike Hotel</p>
-            <p>123 Demo Street</p>
-            <p>New York, NY 12345</p>
-
+            <p className={styles.details__highlight}>Château de Montmélian</p>
+            <p>Rue de Montmélian</p>
+            <p>77210 Samoreau, France</p>
             <a
               className={styles.details__action}
               href="getting-there"
@@ -164,10 +166,14 @@ export default function Home() {
             <p>We hope you can join us</p>
           </div>
           <div className={styles.closer__secondary}>
-            <p>
-              We&apos;ll start with a nonsectarian ceremony, then move to the
-              hotel for the reception. Dress code will be black tie optional
-            </p>
+            <div>
+              <p>
+                We&apos;ll start with a ceremony on the estate grounds, then
+                move to the chateau for food, live music and dancing. The dress
+                code is black tie optional.
+              </p>
+              <p>Please RSVP by May 31st.</p>
+            </div>
           </div>
         </section>
       </div>
