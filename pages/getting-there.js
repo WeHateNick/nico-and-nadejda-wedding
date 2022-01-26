@@ -3,6 +3,9 @@ import Image from "next/image";
 import styles from "../styles/SecondaryPage.module.scss";
 import classNames from "classnames/bind";
 import heroImage from "../public/images/hero-image.png";
+import image1 from "../public/images/Landscape-666.png";
+import image2 from "../public/images/Landscape-drinks.png";
+import image3 from "../public/images/Portrait-gaze.png";
 import ChevronRightIcon from "@material-ui/icons/ChevronRight";
 import Navigation from "../components/Navigation/Navigation";
 import Footer from "../components/Footer/Footer";
@@ -29,31 +32,34 @@ export default function Home() {
         <div className={cx("hero__image__container", "hero__image--1")}>
           <Image
             className={styles.hero__image}
-            src={heroImage}
+            src={image1}
             alt="Nico and Nadejda"
-            layout="fill"
+            width={1152}
+            height={730}
           />
         </div>
         <div className={cx("hero__image__container", "hero__image--2")}>
           <Image
             className={styles.hero__image}
-            src={heroImage}
+            src={image2}
             alt="Nico and Nadejda"
-            layout="fill"
+            width={1728}
+            height={1152}
           />
         </div>
         <div className={cx("hero__image__container", "hero__image--3")}>
           <Image
             className={styles.hero__image}
-            src={heroImage}
+            src={image3}
             alt="Nico and Nadejda"
-            layout="fill"
+            width={1152}
+            height={1728}
           />
         </div>
       </div>
       <section className={styles.header__container}>
         <div className={styles.header__primary}>
-          <p>The wedding will be at the chateau de Montmélian</p>
+          <p>The wedding will be at Nadejda&apos;s family home</p>
           <p>in Samoreau, France</p>
         </div>
         <div className={styles.header__secondary}>
@@ -110,10 +116,11 @@ export default function Home() {
         </div>
         <div className={styles.subsection}>
           <p className={styles.subsection__content}>
-            A note about vaccine status and wedding participation: We’re asking
-            that only vaccinated folks participate in the wedding festivities as
-            we want to minimize the risk of infection. Please reach out to the
-            bride and groom if you have any questions or concerns.
+            A note about vaccine status and wedding participation: We&apos;re
+            asking that only vaccinated folks participate in the wedding
+            festivities as we want to minimize the risk of infection. Please
+            reach out to the bride and groom if you have any questions or
+            concerns.
           </p>
           <small className={styles.subsection__content}>
             *Rules for Children Testing, vaccination and booster requirements
@@ -149,6 +156,11 @@ export default function Home() {
             nor have had contact with any confirmed cases of COVID-19.
           </p>
         </div>
+      </section>
+      <section>
+        <div className={styles.subheader__container}>
+          <h2 className={styles.subheader}>Carte Sanitaire (Health Pass)</h2>
+        </div>
         <div className={styles.subsection}>
           <p className={styles.subsection__content}>
             We strongly recommend securing your pass sanitaire (health pass)
@@ -177,6 +189,79 @@ export default function Home() {
             certificate into the French system and provide you with a QR code
             that can be scanned at venues where the health pass is required.
           </p>
+        </div>
+      </section>
+      <section>
+        <div className={styles.subheader__container}>
+          <h2 className={styles.subheader}>Your options for stay</h2>
+        </div>
+        <div className={styles.content__secondary}>
+          <div className={styles.list__container}>
+            <div className={styles.subheader__container}>
+              <h3 className={styles.subheader}>Hotels</h3>
+            </div>
+            <div className={styles.subsection}>
+              <p className={styles.subsection__content}>
+                <ul>
+                  <li>
+                    L&apos;Anneau de Mallarmé, Vulaines - call for reservation
+                    +33 1 64 23 71 61
+                  </li>
+                  <li>
+                    Le Country Club, Samois - call for reservation +33 1 64 24
+                    60 34
+                  </li>
+                  <li>Ibis Budget Fontainebleau-Avon</li>
+                  <li>Wisteria, Maison d&apos;hôtes Fontainebleau</li>
+                  <li>La Demeure du Parc, Boutique hotel, Fontainebleau</li>
+                  <li>Hotel Belle Fontainebleau</li>
+                  <li>Hotel Aigle Noir Fontainebleau</li>
+                  <li>Ibis Chateau de Fontainebleau</li>
+                  <li>Hotel Le Richelieu Fontainebleau</li>
+                  <li>Hotel de Londres Fontainebleau</li>
+                  <li>La Carpe d&apos;Or Fontainebleau</li>
+                  <li>Hotel Victoria Fontainebleau</li>
+                  <li>
+                    Hotel Mercure Chateau de Fontainebleau Demeure de Campagne
+                  </li>
+                </ul>
+              </p>
+            </div>
+
+            <div className={styles.subheader__container}>
+              <h3 className={styles.subheader}>
+                A selection of the nearest Airbnbs
+              </h3>
+            </div>
+            <div className={styles.subsection}>
+              <p className={styles.subsection__content}>
+                <ul>
+                  <li>Samois, Studio de charme en bord de Seine</li>
+                  <li>La chambre dans la maison du sourire à Samois</li>
+                  <li>Cottage la Bacotte, Bois-Le-Roi</li>
+                  <li>Les Bulles d&apos;Iris, Vulaines-sur-Seine</li>
+                  <li>Le Vieux Moulin de Valvins, Avon</li>
+                  <li>Maisonnette de Charme, Hericy</li>
+                  <li>Chambre privée Joséphine, Villa La Fougeraie, Avon</li>
+                  <li>Aux voyageurs d&apos;un temps, Saint Mamme</li>
+                  <li>Mon cocon au bord de l&apos;eau à Moret sur loing</li>
+                </ul>
+              </p>
+            </div>
+
+            <div className={styles.subheader__container}>
+              <h3 className={styles.subheader}>Atypical Lodging</h3>
+            </div>
+            <div className={styles.subsection}>
+              <p className={styles.subsection__content}>
+                <ul>
+                  <li>Domaine de Graville Tree Huts</li>
+                  <li>Chambres d&apos;hotes Peniche Eden Samois sur seine</li>
+                  <li>Les Bulles d&apos;Iris, Vulaines-sur-Seine</li>
+                </ul>
+              </p>
+            </div>
+          </div>
         </div>
       </section>
       <Footer />

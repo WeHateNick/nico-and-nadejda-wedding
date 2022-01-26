@@ -42,6 +42,8 @@
       grid-row: span 8 / -1;
       height: 34vw;
       max-height: 100%;
+      display: flex;
+      justify-content: flex-end;
       @media (max-width: var.$breakpoint--medium) {
         grid-column: 1/-1;
         grid-row: 2 / span 8;
@@ -171,7 +173,7 @@
     border-top-right-radius: 6px;
   }
   &__image {
-    border-radius: 6px;
+    border-radius: 4px;
   }
 }
 

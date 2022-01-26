@@ -36,7 +36,8 @@ export default function Home() {
             className={styles.hero__image}
             src={heroImage}
             alt="Nico and Nadejda"
-            layout="fill"
+            width={1728}
+            height={1152}
           />
         </div>
       </div>
@@ -169,7 +170,7 @@ export default function Home() {
             <div>
               <p>
                 We&apos;ll start with a ceremony on the estate grounds, then
-                move to the chateau for food, live music and dancing. The dress
+                move to the château for food, live music and dancing. The dress
                 code is black tie optional.
               </p>
               <p>Please RSVP by May 31st.</p>
