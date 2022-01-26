@@ -6,6 +6,7 @@ import heroImage from "../public/images/hero-image.png";
 import image1 from "../public/images/Landscape-666.png";
 import image2 from "../public/images/Landscape-drinks.png";
 import image3 from "../public/images/Portrait-gaze.png";
+import image4 from "../public/images/Landscape-pickup.png";
 import ChevronRightIcon from "@material-ui/icons/ChevronRight";
 import Navigation from "../components/Navigation/Navigation";
 import Footer from "../components/Footer/Footer";
@@ -56,6 +57,15 @@ export default function Home() {
             height={1728}
           />
         </div>
+        <div className={cx("hero__image__container", "hero__image--4")}>
+          <Image
+            className={styles.hero__image}
+            src={image4}
+            alt="Nico and Nadejda"
+            width={1728}
+            height={1152}
+          />
+        </div>
       </div>
       <section className={styles.header__container}>
         <div className={styles.header__primary}>
@@ -95,8 +105,6 @@ export default function Home() {
               </p>
             </div>
           </div>
-        </section>
-        <section className={styles.list__container}>
           <div className={cx("list__single__container", "list__single--groom")}>
             <h2 className={styles.list__single__title}>By car</h2>
             <div className={styles.list__single__content}>
