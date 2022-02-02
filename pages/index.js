@@ -194,11 +194,11 @@ export default function Home() {
                 I&apos;m very excited for you to visit France. Montmélian is a
                 magical place that I have no doubt you will be pleased to get to
                 know. And for those of you who are taking the opportunity to do
-                some travelling around Europe, you&apos;ll find that the
-                Samoreau area of France is very conveniently located next to
-                many great places to visit. I hope this is not only a chance for
-                you to join us in the celebration of our love, but a chance to
-                take a beautiful trip and make another great memory together.
+                some traveling around Europe, you&apos;ll find that the Samoreau
+                area of France is very conveniently located next to many great
+                places to visit. I hope this is not only a chance for you to
+                join us in the celebration of our love, but a chance to take a
+                beautiful trip and make another great memory together.
               </p>
               <p>I’ll be working on my French, I hope you do too.</p>
               <p>&ndash; Nicolas</p>
