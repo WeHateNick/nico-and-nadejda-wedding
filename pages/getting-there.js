@@ -82,8 +82,8 @@ export default function Home() {
       <div className={styles.subheader__container}>
         <h2 className={styles.subheader}>Getting there from Paris</h2>
       </div>
-      <div className={styles.content__secondary}>
-        <section className={styles.list__container}>
+      <section className={styles.content__secondary}>
+        <div className={styles.list__container}>
           <div className={cx("list__single__container", "list__single--bride")}>
             <h2 className={styles.list__single__title}>By train</h2>
             <div className={styles.list__single__content}>
@@ -114,8 +114,8 @@ export default function Home() {
               </p>
             </div>
           </div>
-        </section>
-      </div>
+        </div>
+      </section>
       <section>
         <div className={styles.subheader__container}>
           <h2 className={styles.subheader}>
@@ -156,12 +156,13 @@ export default function Home() {
             </a>
             . Fully vaccinated travelers from the U.S. who are age 18 and older
             may enter the country by showing proof of vaccination, results of a
-            negative COVID-19 test (PCR or antigen) taken within 48 hours prior
-            to departure for France and a{" "}
+            negative COVID&ndash;19 test (PCR or antigen) taken within 48 hours
+            prior to departure for France and a{" "}
             <a href="https://www.interieur.gouv.fr/Actualites/L-actu-du-Ministere/Attestation-de-deplacement-et-de-voyage">
-              sworn statement attesting they do not have symptoms of COVID-19
+              sworn statement attesting they do not have symptoms of
+              COVID&ndash;19
             </a>{" "}
-            nor have had contact with any confirmed cases of COVID-19.
+            nor have had contact with any confirmed cases of COVID&ndash;19.
           </p>
         </div>
       </section>
@@ -178,11 +179,11 @@ export default function Home() {
           </p>
           <p className={styles.subsection__content}>
             The pass sanitaire (health pass) indicates that the holder has been
-            fully vaccinated against COVID-19 with a booster shot. To activate
-            the pass, people must be up-to-date with their booster schedule. In
-            France, that means seven months after the second dose of a Pfizer,
-            Moderna, AstraZeneca or Covishield vaccine course, or after the
-            one-shot Johnson & Johnson vaccine.
+            fully vaccinated against COVID&ndash;19 with a booster shot. To
+            activate the pass, people must be up&ndash;to&ndash;date with their
+            booster schedule. In France, that means seven months after the
+            second dose of a Pfizer, Moderna, AstraZeneca or Covishield vaccine
+            course, or after the one&ndash;shot Johnson & Johnson vaccine.
           </p>
           <p className={styles.subsection__content}>
             If you&apos;re traveling from the US, Bolivia or another non-EU
@@ -234,7 +235,7 @@ export default function Home() {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      Ibis Budget Fontainebleau-Avon
+                      Ibis Budget Fontainebleau&ndash;Avon
                     </a>
                   </li>
                   <li>
@@ -363,7 +364,7 @@ export default function Home() {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      Cottage la Bacotte, Bois-Le-Roi
+                      Cottage la Bacotte, Bois&ndash;Le&ndash;Roi
                     </a>
                   </li>
                   <li>
@@ -372,7 +373,7 @@ export default function Home() {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      Les Bulles d&apos;Iris, Vulaines-sur-Seine
+                      Les Bulles d&apos;Iris, Vulaines&ndash;sur&ndash;Seine
                     </a>
                   </li>
                   <li>
@@ -455,7 +456,7 @@ export default function Home() {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      Les Bulles d&apos;Iris, Vulaines-sur-Seine
+                      Les Bulles d&apos;Iris, Vulaines&ndash;sur&ndash;Seine
                     </a>
                   </li>
                 </ul>

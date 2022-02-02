@@ -45,6 +45,9 @@
     margin: 0.6em auto 0;
     color: var.$color--gray;
     opacity: 0;
+    @media (max-width: var.$breakpoint--medium) {
+      opacity: 1;
+    }
     &:hover {
       cursor: pointer;
       color: var.$color--action;

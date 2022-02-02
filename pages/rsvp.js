@@ -73,11 +73,34 @@ export default function Rsvp() {
           <p>The wedding will be at the chateau de Montmélian</p>
           <p>in Samoreau, France</p>
         </div>
-        <div className={styles.header__secondary}>
-          <p>
-            It&apos;s about an hour away from Paris on the Seine and can be
-            reached by train, rental car or cab.
-          </p>
+        <div className={styles.header__secondary}></div>
+      </section>
+      <div className={styles.subheader__container}>
+        <h2 className={styles.subheader}>Wedding details</h2>
+      </div>
+      <section className={styles.content__secondary}>
+        <div className={styles.list__container}>
+          <div className={cx("list__single__container", "list__single--bride")}>
+            <h2 className={styles.list__single__title}>Tentative schedule</h2>
+            <div className={styles.list__single__content}>
+              <p>
+                <ul>
+                  <li>4:30 pm &ndash; Ceremony & Vows</li>
+                  <li>
+                    5:30 pm &ndash; Vin d’honneur / Apéritif / Live music{" "}
+                  </li>
+                  <li>7:30 pm &ndash; Dinner </li>
+                  <li>9:30 pm on &ndash; Party! </li>
+                </ul>
+              </p>
+              <p className={styles.subsection__content}>
+                The dress code is black tie optional or cocktail attire.
+              </p>
+              <p className={styles.subsection__content}>
+                Please RSVP by May 31st
+              </p>
+            </div>
+          </div>
         </div>
       </section>
       <RsvpForm />
