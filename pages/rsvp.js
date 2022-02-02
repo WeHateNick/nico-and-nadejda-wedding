@@ -4,10 +4,10 @@ import Script from "next/script";
 import styles from "../styles/SecondaryPage.module.scss";
 import classNames from "classnames/bind";
 import heroImage from "../public/images/hero-image.png";
-import image1 from "../public/images/Landscape-666.png";
-import image2 from "../public/images/Landscape-drinks.png";
-import image3 from "../public/images/Portrait-gaze.png";
-import image4 from "../public/images/Landscape-pickup.png";
+import image1 from "../public/images/Landscape-drinks-2.png";
+import image2 from "../public/images/Landscape-leaves.png";
+import image3 from "../public/images/Potrait-grass.png";
+import image4 from "../public/images/Landscape-wall.png";
 import Navigation from "../components/Navigation/Navigation";
 import RsvpForm from "../components/RsvpForm/RsvpForm";
 import Footer from "../components/Footer/Footer";
@@ -36,8 +36,8 @@ export default function Rsvp() {
             className={styles.hero__image}
             src={image1}
             alt="Nico and Nadejda"
-            width={1152}
-            height={730}
+            width={1728}
+            height={1152}
           />
         </div>
         <div className={cx("hero__image__container", "hero__image--2")}>
@@ -45,8 +45,8 @@ export default function Rsvp() {
             className={styles.hero__image}
             src={image2}
             alt="Nico and Nadejda"
-            width={1728}
-            height={1152}
+            width={1152}
+            height={821}
           />
         </div>
         <div className={cx("hero__image__container", "hero__image--3")}>
@@ -63,8 +63,8 @@ export default function Rsvp() {
             className={styles.hero__image}
             src={image4}
             alt="Nico and Nadejda"
-            width={1728}
-            height={1152}
+            width={1075}
+            height={584}
           />
         </div>
       </div>
