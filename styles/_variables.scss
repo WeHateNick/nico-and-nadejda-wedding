@@ -56,18 +56,27 @@ $breakpoint--small: 640px;
     font-weight: 400;
     font-size: 24px;
     color: $color--gray--dark;
+    @media (max-width: $breakpoint--medium) {
+      font-size: 18px;
+    }
   }
   &--secondary {
     font-family: $font-family--copy;
     font-weight: 400;
     font-size: 24px;
     color: $color--gray--dark;
+    @media (max-width: $breakpoint--medium) {
+      font-size: 18px;
+    }
   }
   &--highlight {
     font-family: $font-family--display;
     font-weight: 300;
     font-size: 32px;
     color: $color--black--primary;
+    @media (max-width: $breakpoint--medium) {
+      font-size: 20px;
+    }
   }
 }
 
@@ -77,12 +86,18 @@ $breakpoint--small: 640px;
     font-weight: 300;
     font-size: 42px;
     color: $color--gray--dark;
+    @media (max-width: $breakpoint--medium) {
+      font-size: 32px;
+    }
   }
   &--large {
     font-family: $font-family--display;
     font-weight: 300;
     font-size: 54px;
     color: $color--gray--dark;
+    @media (max-width: $breakpoint--medium) {
+      font-size: 38px;
+    }
   }
 }
 
@@ -91,6 +106,9 @@ $breakpoint--small: 640px;
     font-family: $font-family--display;
     font-weight: 300;
     font-size: 24px;
+    @media (max-width: $breakpoint--medium) {
+      font-size: 18px;
+    }
     color: $color--action;
     text-decoration: underline;
     &:hover {
@@ -104,6 +122,9 @@ $breakpoint--small: 640px;
     text-decoration: underline;
     text-transform: uppercase;
     color: $color--gray;
+    @media (max-width: $breakpoint--medium) {
+      font-size: 18px;
+    }
   }
 }
 

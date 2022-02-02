@@ -38,6 +38,7 @@ export default function Home() {
             alt="Nico and Nadejda"
             width={1728}
             height={1152}
+            layout="fill"
           />
         </div>
       </div>

@@ -47,7 +47,14 @@
       @media (max-width: var.$breakpoint--medium) {
         grid-column: 1/-1;
         grid-row: 2 / span 8;
-        height: 50vh;
+        width: 80vw;
+        height: 50vw;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      @media (max-width: var.$breakpoint--small) {
+        width: 100vw;
+        height: 60vw;
       }
       align-self: end;
       z-index: 1;
