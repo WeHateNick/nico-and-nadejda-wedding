@@ -95,32 +95,43 @@ export default function Home() {
             <h2 className={styles.profiles__single__title}>The bride</h2>
             <div className={styles.profiles__single__content}>
               <p>
-                I&apos;m baby selfies craft beer hammock hexagon celiac, squid
-                vaporware flexitarian tofu snackwave photo booth. Brooklyn
-                iceland ennui sriracha. Blue bottle tousled single-origin coffee
-                post-ironic. Thundercats bespoke etsy meggings.
+                I met Nico almost five years ago and have been smitten with him
+                ever since. After a few years of dating, we moved in together.
+                This happened to be a week before the pandemic struck which
+                meant that we went from seeing each other a few times a week to
+                being in each other&apos;s company around the clock. Despite the
+                abrupt changes, I found myself enjoying life together and deeply
+                in love. His unwavering support and affection makes my world
+                brighter and fuller. I&apos;m almost certain we&apos;ve laughed
+                together every single day and I&apos;m so grateful to have him
+                as my partner in life.
               </p>
               <p>
-                Slow-carb cold-pressed roof party wayfarers quinoa. Yr small
-                batch tattooed twee ugh snackwave cloud bread. Locavore
-                waistcoat palo santo street art cardigan aesthetic enamel pin
-                flannel schlitz plaid artisan church-key keffiyeh disrupt
-                drinking vinegar. Cliche aesthetic whatever kale chips raclette
-                umami edison bulb master cleanse cloud bread.
+                Not only do I get to marry my favorite person in the entire
+                world, I also get to marry into his family who happen to be some
+                of the kindest, funnest and most loving people I know. I&apos;m
+                so grateful to them for welcoming me into their brood ever since
+                my very first visit to Bolivia.
               </p>
               <p>
-                I&apos;m baby selfies craft beer hammock hexagon celiac, squid
-                vaporware flexitarian tofu snackwave photo booth. Brooklyn
-                iceland ennui sriracha. Blue bottle tousled single-origin coffee
-                post-ironic. Thundercats bespoke etsy meggings.
+                For those of you who can join us, we can&apos;t wait to share
+                this special day with you. We&apos;re excited to host you in our
+                family&apos;s home in France where I spent many glowing summers
+                growing up. This space has allowed our dispersed family to come
+                together every year and revel in connection, community and the
+                joy of being together. It would be a dream to share and amplify
+                that same energy with you all next September.
               </p>
               <p>
-                Slow-carb cold-pressed roof party wayfarers quinoa. Yr small
-                batch tattooed twee ugh snackwave cloud bread. Locavore
-                waistcoat palo santo street art cardigan aesthetic enamel pin
-                flannel schlitz plaid artisan church-key keffiy eh disrupt
-                drinking vinegar. Cliche aesthetic whatever kale chips raclette
-                umami edison bulb master cleanse cloud bread.
+                We&apos;re planning on having a lamb roast and bonfire on the
+                farm the day before the wedding ceremony along with a farewell
+                brunch on Sunday to close out the weekend&apos;s festivities. We
+                recommend staying in the surrounding area if you&apos;re
+                planning on joining us for those activities. Otherwise, our
+                venue is about an hour away from Paris so staying there is
+                definitely an option. We can help arrange transport from your
+                lodgings in the surrounding area or Paris as we get closer to
+                the big day. We hope to see you there!
               </p>
             </div>
           </div>
@@ -171,8 +182,8 @@ export default function Home() {
                 el viaje, la estadía o cualquier otra acomodación.
               </p>
               <p>
-                It also shouldn’t go unsaid that we are still suffering through
-                a global pandemic that makes large gatherings and travel
+                It also shouldn&apos;t go unsaid that we are still suffering
+                through a global pandemic that makes large gatherings and travel
                 complicated and unpredictable. We will be doing our best to keep
                 track of health regulations, recommendations by the CDC and make
                 our best to accommodate to whatever situation arises in
@@ -184,10 +195,10 @@ export default function Home() {
               </p>
               <p>
                 I kind of already said this above in Spanish, but for my
-                American friends that didn’t already c/p that part to Google
-                Translate, I know that asking you to travel all the way to
-                France is a lot to ask. I completely understand if the trip is
-                just not something you can feasibly do, and your love and
+                American friends that didn&apos;t already c/p that part to
+                Google Translate, I know that asking you to travel all the way
+                to France is a lot to ask. I completely understand if the trip
+                is just not something you can feasibly do, and your love and
                 support will still be very much felt in France.
               </p>
               <p>
@@ -200,7 +211,7 @@ export default function Home() {
                 join us in the celebration of our love, but a chance to take a
                 beautiful trip and make another great memory together.
               </p>
-              <p>I’ll be working on my French, I hope you do too.</p>
+              <p>I&apos;ll be working on my French, I hope you do too.</p>
               <p>&ndash; Nicolas</p>
             </div>
           </div>
