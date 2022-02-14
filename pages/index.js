@@ -24,7 +24,7 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.title__container}>
           <h1 className={styles.title}>Nicolas and Nadejda</h1>
-          <h2 className={styles.subtitle}>&ndash; 9/3/2022 &ndash;</h2>
+          <h2 className={styles.subtitle}>&ndash; September 3, 2022 &ndash;</h2>
         </div>
       </main>
       <div className={styles.hero__container}>
@@ -65,8 +65,8 @@ export default function Home() {
             <p className={styles.details__highlight}>
               Saturday, September 3, 2022
             </p>
-            <p>Ceremony: 4 PM — 5 PM</p>
-            <p>Reception: 5 PM forward</p>
+            <p>Ceremony: 4:30 PM</p>
+            <p>Reception: 5:30 PM</p>
             <a className={styles.details__action} href="rsvp" alt="RSVP">
               <span>Details and RSVP</span> <ChevronRightIcon />
             </a>

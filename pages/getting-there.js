@@ -220,16 +220,6 @@ export default function Home() {
                     <a href="tel:+33164237161">+33 1 64 23 71 61</a>)
                   </li>
                   <li>
-                    <a href="https://www.hotels.com/ho700512672?rffrid=sem.hcom.xx.156.020.localuniversal.02.">
-                      Le Country Club, Samois
-                    </a>{" "}
-                    (call for reservation &nbsp;
-                    <a href="tel:+33164246034">
-                      (call for reservation +33 1 64 24 60 34)
-                    </a>
-                    )
-                  </li>
-                  <li>
                     <a
                       href="https://all.accor.com/hotel/2720/index.en.shtml"
                       target="_blank"
@@ -331,7 +321,6 @@ export default function Home() {
                 </ul>
               </p>
             </div>
-
             <div className={styles.subheader__container}>
               <h3 className={styles.subheader}>
                 A selection of the nearest Airbnbs
@@ -424,7 +413,6 @@ export default function Home() {
                 </ul>
               </p>
             </div>
-
             <div className={styles.subheader__container}>
               <h3 className={styles.subheader}>Atypical Lodging</h3>
             </div>
@@ -463,6 +451,26 @@ export default function Home() {
               </p>
             </div>
           </div>
+        </div>
+      </section>
+      <section>
+        <div className={styles.subheader__container}>
+          <h2 className={styles.subheader}>
+            Como pedir visa en Bolivia para viajar a Francia
+          </h2>
+        </div>
+        <div className={styles.subsection}>
+          <p className={styles.subsection__content}>
+            En Bolivia, la Embajada de España representa oficialmente la
+            embajada de Francia para las visas de turismo SCHENGEN. La Embajada
+            de España cuenta con un servicio externo de visas en La Paz “BLS”
+            que realiza la recepción de las solicitudes de visa para los
+            ciudadanos que viven en Cochabamba, La Paz, Potosí y Chuquisaca, y
+            el Consulado de España en Santa Cruz realiza la recepción de las
+            solicitudes para los que viven en Santa Cruz, Beni, Pando o Tarija.
+            Para ver mas información, continue a la{" "}
+            <a href="BLS Internacional">página de BLS Internacional</a>.
+          </p>
         </div>
       </section>
       <Footer />
