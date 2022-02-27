@@ -94,7 +94,7 @@ export default function Rsvp() {
                 </ul>
               </p>
               <p className={styles.subsection__content}>
-                The dress code is black tie optional or cocktail attire.
+                The dress code is garden party attire.
               </p>
               <p className={styles.subsection__content}>
                 Please RSVP by May 31st

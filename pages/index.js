@@ -225,7 +225,7 @@ export default function Home() {
               <p>
                 We&apos;ll start with a ceremony on the estate grounds, then
                 move to the château for food, live music and dancing. The dress
-                code is black tie optional.
+                code is garden party attire.
               </p>
               <p>Please RSVP by May 31st.</p>
             </div>
