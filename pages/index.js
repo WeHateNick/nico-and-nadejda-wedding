@@ -133,6 +133,7 @@ export default function Home() {
                 lodgings in the surrounding area or Paris as we get closer to
                 the big day. We hope to see you there!
               </p>
+              <p>&ndash; Nadejda Orlowski</p>
             </div>
           </div>
           <div
@@ -212,7 +213,7 @@ export default function Home() {
                 beautiful trip and make another great memory together.
               </p>
               <p>I&apos;ll be working on my French, I hope you do too.</p>
-              <p>&ndash; Nicolas</p>
+              <p>&ndash; Nicolas Ocampo</p>
             </div>
           </div>
         </section>
