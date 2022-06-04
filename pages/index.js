@@ -1,9 +1,11 @@
 import Head from "next/head";
 import Image from "next/image";
 import Script from "next/script";
+import Link from "next/link";
 import styles from "../styles/Home.module.scss";
 import classNames from "classnames/bind";
 import heroImage from "../public/images/hero-image.png";
+import honeyFundLogo from "../public/images/HoneyFund-Logo.svg";
 import ChevronRightIcon from "@material-ui/icons/ChevronRight";
 import Navigation from "../components/Navigation/Navigation";
 import Footer from "../components/Footer/Footer";
@@ -38,7 +40,6 @@ export default function Home() {
             alt="Nico and Nadejda"
             width={1728}
             height={1152}
-            layout="fill"
           />
         </div>
       </div>
@@ -83,6 +84,43 @@ export default function Home() {
             >
               <span>How to get there</span> <ChevronRightIcon />
             </a>
+          </div>
+        </section>
+        <section className={styles.registry}>
+          <div className={styles.registry__title}>
+            <h2>Our registry</h2>
+          </div>
+          <div className={styles.registry__body}>
+            <p>
+              We are honored you will share in our special day. Your presence is
+              our gift, so please don&apos;t feel obligated to participate.
+            </p>
+            <p>
+              We&apos;re lucky to already have a home full of everything we
+              need, so please enjoy browsing our Honeyfund wish list, where you
+              can contribute funds to our dream honeymoon or future home. It’s
+              safe, secure, and easy. Feel free to contact us via the link below
+              if you need more info about how it works.
+            </p>
+          </div>
+          <a
+            className={styles.registry__image}
+            href="https://www.honeyfund.com/Registry?id=1178343&rid=4110938&t=1"
+          >
+            <Image
+              src={honeyFundLogo}
+              alt="Visit our honeyfund at Honeyfund.com"
+              width={200}
+              height={100}
+            />
+          </a>
+          <div className={styles.registry__link}>
+            <Link
+              href="/getting-there"
+              alt="Visit our honeyfund at Honeyfund.com"
+            >
+              Visit our registry
+            </Link>
           </div>
         </section>
         <section className={styles.profiles__container}>
