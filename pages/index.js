@@ -5,7 +5,7 @@ import Link from "next/link";
 import styles from "../styles/Home.module.scss";
 import classNames from "classnames/bind";
 import heroImage from "../public/images/hero-image.png";
-import honeyFundLogo from "../public/images/HoneyFund-Logo.svg";
+import honeyFundLogo from "../public/images/HoneyFund-logo.svg";
 import ChevronRightIcon from "@material-ui/icons/ChevronRight";
 import Navigation from "../components/Navigation/Navigation";
 import Footer from "../components/Footer/Footer";
