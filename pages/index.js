@@ -116,7 +116,7 @@ export default function Home() {
           </a>
           <div className={styles.registry__link}>
             <Link
-              href="/getting-there"
+              href="https://www.honeyfund.com/Registry?id=1178343&rid=4110938&t=1"
               alt="Visit our honeyfund at Honeyfund.com"
             >
               Visit our registry
