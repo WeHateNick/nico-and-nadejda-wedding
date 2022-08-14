@@ -112,7 +112,7 @@ ol,
 ul,
 dl {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
 }
 
 ol ol,
@@ -164,12 +164,6 @@ sup {
   top: -0.5em;
 }
 
-a {
-  color: theme-color("primary");
-  text-decoration: none;
-  background-color: transparent;
-  -webkit-text-decoration-skip: objects;
-}
 a:hover {
   color: #0056b3;
   text-decoration: underline;
@@ -381,7 +375,6 @@ body {
 
 a {
   color: inherit;
-  text-decoration: none;
 }
 
 * {

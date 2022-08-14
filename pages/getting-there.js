@@ -88,11 +88,56 @@ export default function Home() {
             <h2 className={styles.list__single__title}>By train</h2>
             <div className={styles.list__single__content}>
               <p>
-                Gare de Lyon (Paris) to Gare de Fontainebleau
-                <ul>
-                  <li>45 mins</li>
-                  <li>Runs every half hour</li>
-                </ul>
+                <strong>Gare de Lyon (Paris)</strong> to{" "}
+                <strong>Gare de Fontainebleau / Avon</strong>
+              </p>
+              <ul>
+                <li>45 mins</li>
+                <li>Runs every half hour</li>
+              </ul>
+              <p>
+                Trains leave from any one of two sets of platforms in{" "}
+                <em>Grandes Lignes</em>:
+              </p>
+              <ul>
+                <li>
+                  Hall 1 &ndash; alphabetic platforms <em>A&ndash;N</em>
+                </li>
+                <li>
+                  Hall 2 &ndash; numeric platforms <em>5-23</em>
+                </li>
+              </ul>
+              <p>
+                Go to the <em>Ile de France / Banlieue</em> counter or ticket
+                machine to buy your ticket for <em>Fontainebleau / Avon</em>.
+              </p>
+              <p>
+                Train lines are displayed by their final destination and there
+                are several lines that make stops at{" "}
+                <em>Fontainebleau / Avon.</em> These final destination can be
+                any one of the following:
+              </p>
+              <ul>
+                <li>Montereau</li>
+                <li>Montargis</li>
+                <li>Sens</li>
+                <li>Laroche Migennes</li>
+              </ul>
+              <p>
+                Make sure your train stops in the <em>Fontainebleau / Avon</em>{" "}
+                station.
+              </p>
+              <p>
+                For more information on local train times, current prices and
+                availability please go to the{" "}
+                <a
+                  href="https://www.transilien.com/en"
+                  alt="Local train times departing from Paris"
+                >
+                  Transilien website
+                </a>{" "}
+                and type the name of your departure and arrival stations (i.e.,
+                Paris - Gare de Lyon or Fontainebleau / Avon).
               </p>
             </div>
           </div>
@@ -100,9 +145,73 @@ export default function Home() {
             <h2 className={styles.list__single__title}>By cab</h2>
             <div className={styles.list__single__content}>
               <p>
-                Let us know if you’d like to arrange for a cab from the airport
-                and we can put you in touch with a trusted driver
+                It is unlikely that you will find a taxi at the train station.
+                Hence, you should book a taxi in advance.
               </p>
+              <ul>
+                <li>
+                  <strong>
+                    <a href="https://taxi-ela.fr/" alt="Taxi ELA website">
+                      Taxi ELA:
+                    </a>
+                  </strong>{" "}
+                  <a href="tel: +33769191141" alt="Taxi ELA phone number">
+                    +33 7 69 19 11 41
+                  </a>{" "}
+                  ask for ABDEL
+                </li>
+                <li>
+                  <strong>
+                    <a
+                      href="www.taxis-fontainebleau-avon.fr"
+                      alt="Radio-Taxi Fontainebleau Avon website"
+                    >
+                      Radio-Taxi Fontainebleau Avon
+                    </a>
+                  </strong>
+                  :{" "}
+                  <a
+                    href="tel:+33164220006"
+                    alt="Radio-Taxi Fontainebleau Avon phone number"
+                  >
+                    +33 1 64 22 00 06
+                  </a>
+                </li>
+                <li>
+                  <strong>
+                    <a
+                      href="www.taxi-resa.com"
+                      alt="Taxi Fontainebleau Avon website"
+                    >
+                      Taxi Fontainebleau Avon
+                    </a>
+                  </strong>
+                  :{" "}
+                  <a
+                    href="tel:+33677941006"
+                    alt="Taxi Fontainebleau Avon phone number"
+                  >
+                    +33 6 77 94 10 06
+                  </a>
+                </li>
+                <li>
+                  <strong>
+                    <a
+                      href="https://www.fontainebleau.taxi/"
+                      alt="Le Garçon Chauffeur website"
+                    >
+                      Le Garçon Chauffeur
+                    </a>
+                  </strong>
+                  :{" "}
+                  <a
+                    href="tel:+33650572853"
+                    alt="Le Garçon Chauffeur phone number"
+                  >
+                    +33 6 50 57 28 53
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
           <div className={cx("list__single__container", "list__single--groom")}>
@@ -163,40 +272,6 @@ export default function Home() {
               COVID&ndash;19
             </a>{" "}
             nor have had contact with any confirmed cases of COVID&ndash;19.
-          </p>
-        </div>
-      </section>
-      <section>
-        <div className={styles.subheader__container}>
-          <h2 className={styles.subheader}>Carte Sanitaire (Health Pass)</h2>
-        </div>
-        <div className={styles.subsection}>
-          <p className={styles.subsection__content}>
-            We strongly recommend securing your pass sanitaire (health pass)
-            when you arrive as it&apos;s required for entry in most public
-            spaces, including restaurants, bars, museums, high speed trains
-            etc&hellip;
-          </p>
-          <p className={styles.subsection__content}>
-            The pass sanitaire (health pass) indicates that the holder has been
-            fully vaccinated against COVID&ndash;19 with a booster shot. To
-            activate the pass, people must be up&ndash;to&ndash;date with their
-            booster schedule. In France, that means seven months after the
-            second dose of a Pfizer, Moderna, AstraZeneca or Covishield vaccine
-            course, or after the one&ndash;shot Johnson & Johnson vaccine.
-          </p>
-          <p className={styles.subsection__content}>
-            If you&apos;re traveling from the US, Bolivia or another non-EU
-            nation, you must apply in person through a dedicated pharmacy in
-            France when you arrive in the country. You&apos;ll be required to
-            pay a fee of up to €36 (about US$44) for the service.
-          </p>
-          <p className={styles.subsection__content}>
-            When applying, you&apos;ll be asked to show your passport and
-            official vaccination certificate (CDC card) with your booster shot
-            information. The pharmacist will convert the details from that
-            certificate into the French system and provide you with a QR code
-            that can be scanned at venues where the health pass is required.
           </p>
         </div>
       </section>
