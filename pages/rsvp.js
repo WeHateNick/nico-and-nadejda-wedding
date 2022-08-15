@@ -81,7 +81,7 @@ export default function Rsvp() {
       <section className={styles.content__secondary}>
         <div className={styles.list__container}>
           <div className={cx("list__single__container", "list__single--bride")}>
-            <h2 className={styles.list__single__title}>Tentative schedule</h2>
+            <h2 className={styles.list__single__title}>Schedule</h2>
             <div className={styles.list__single__content}>
               <p>
                 <ul>
