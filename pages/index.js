@@ -75,7 +75,7 @@ export default function Home() {
           <div className={styles.details__where}>
             <h2>Where</h2>
             <p className={styles.details__highlight}>Château de Montmélian</p>
-            <p>Rue de Montmélian</p>
+            <p>1 Rue de Montmélian</p>
             <p>77210 Samoreau, France</p>
             <a
               className={styles.details__action}

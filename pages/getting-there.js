@@ -73,6 +73,8 @@ export default function Home() {
           <p>in Samoreau, France</p>
         </div>
         <div className={styles.header__secondary}>
+          <p>1 Rue de Montmélian</p>
+          <p>77210 Samoreau, France</p>
           <p>
             It&apos;s about an hour away from Paris on the Seine and can be
             reached by train, rental car or cab.
@@ -238,40 +240,6 @@ export default function Home() {
             festivities as we want to minimize the risk of infection. Please
             reach out to the bride and groom if you have any questions or
             concerns.
-          </p>
-          <small className={styles.subsection__content}>
-            *Rules for Children Testing, vaccination and booster requirements
-            apply to travelers who are 12 and older, and American visitors must
-            show results of a negative PCR or antigen test taken within 48 hours
-            to enter the country.
-          </small>
-        </div>
-      </section>
-      <section>
-        <div className={styles.subheader__container}>
-          <h2 className={styles.subheader}>
-            Entry Requirements for Fully Vaccinated Travelers
-          </h2>
-        </div>
-        <div className={styles.subsection}>
-          <p className={styles.subsection__content}>
-            Entry rules to France depend on the country from which you are
-            arriving from. You can find{" "}
-            <a
-              href="https://www.interieur.gouv.fr/Actualites/L-actu-du-Ministere/Certificate-of-international-travel"
-              alt="Certificate-of-international-travel"
-            >
-              up to date details here
-            </a>
-            . Fully vaccinated travelers from the U.S. who are age 18 and older
-            may enter the country by showing proof of vaccination, results of a
-            negative COVID&ndash;19 test (PCR or antigen) taken within 48 hours
-            prior to departure for France and a{" "}
-            <a href="https://www.interieur.gouv.fr/Actualites/L-actu-du-Ministere/Attestation-de-deplacement-et-de-voyage">
-              sworn statement attesting they do not have symptoms of
-              COVID&ndash;19
-            </a>{" "}
-            nor have had contact with any confirmed cases of COVID&ndash;19.
           </p>
         </div>
       </section>
